@@ -84,12 +84,12 @@ body {
 select {
   /* border: 2px solid red; */
   position: absolute;
-  right: 110px;
+  right: 190px;
   top: 70px;
   width: 60px;
   border-radius: 7px;
   background-color: #ffffff00;
-  color: white;
+  color: #fdbb30;
   font-weight: 900;
 
   @media only screen and (max-width: 950px) {
