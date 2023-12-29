@@ -141,3 +141,25 @@ select {
 .team-logo1 {
   width: 90px;
 }
+
+.footer {
+  background-color: black;
+  color: white;
+  display: flex;
+  padding: 1rem 0;
+  margin-top: 1rem;
+  font-size: small;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-right {
+  display: flex;
+  gap: 1rem;
+  font-size: 2rem;
+  margin-right: 40px;
+}
+
+.footer-right a {
+  color: white;
+}
