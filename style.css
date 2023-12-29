@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-image: url(./img/blue-yellow-abstract-background-vector-abstract-graphic-design-banner-pattern-background-template_249611-9063.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.container-fluid .navbar-brand {
+  margin-left: 50px;
+}
+.navbar-collapse {
+  margin-right: 50px;
+}
+.navbar-nav a:hover {
+  color: white;
+}
+
+.navbar-nav a {
+  color: white;
+}
+
+.navbar-brand img {
+  width: 30px;
+  border-radius: 5px;
+}
+
+.navbar-middle {
+  margin-left: 70px;
+}
+
+.appicon img {
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  margin-top: 10px;
+}
+
+.allStarLogo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.allStarLogo img {
+  margin-left: 550px;
+  margin-top: 100px;
+  width: 500px;
+  height: 100px;
+}
+
+.nba-logo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.nba-logo h1 {
+  color: white;
+  margin-top: 60px;
+}
+
+.nba-logo img {
+  width: 200px;
+  height: 150px;
+}
+
+.nba-logo h1 img {
+  width: 25px;
+  height: 25px;
+  margin-bottom: 15px;
+}
+.voting-banner {
+  position: relative;
+}
+select {
+  /* border: 2px solid red; */
+  position: absolute;
+  right: 110px;
+  top: 70px;
+  width: 60px;
+  border-radius: 7px;
+  background-color: #ffffff00;
+  color: white;
+  font-weight: 900;
+
+  @media only screen and (max-width: 950px) {
+    display: none;
+  }
+}
+
+.form-control {
+  max-width: 600px;
+  height: 60px;
+  display: flex;
+  margin: auto;
+}
+
+.nav-score {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.nav-score a {
+  color: white;
+}
+.nav-score a:hover {
+  color: yellow;
+}
+.players-card a {
+  border: none;
+  width: 100%;
+  background-color: #fdbb30;
+  color: #002d62;
+  font-weight: 700;
+}
+.card {
+  display: flex;
+  justify-content: center;
+}
+
+.players-card a:hover {
+  background-color: #002d62;
+}
+
+.card h5 span {
+  color: #828282;
+}
+
+.team-logo {
+  width: 50px;
+}
+.team-logo1 {
+  width: 90px;
+}
