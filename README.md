@@ -2,4 +2,4 @@
 
 - <a href="https://karamanburak.github.io/NBA-ALL-STAR-2024-VOTE-PAGE/" rel="noFollow">Access the finished project online</a>
 
-![Project Image](/img/screencapture-127-0-0-1-5501-index-html-2024-01-03-08_18_07.png)
+![Project Image](/img/screencapture-127-0-0-1-5501-index-html-2024-01-04-22_30_09.png)
