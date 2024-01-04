@@ -18,9 +18,11 @@ body {
 .container-fluid .navbar-brand {
   margin-left: 50px;
 }
+
 .navbar-collapse {
   margin-right: 50px;
 }
+
 .navbar-nav a:hover {
   color: white;
 }
@@ -32,10 +34,6 @@ body {
 .navbar-brand img {
   width: 30px;
   border-radius: 5px;
-}
-
-.navbar-middle {
-  margin-left: 70px;
 }
 
 .allStarLogo {
@@ -86,7 +84,7 @@ select {
   color: #fdbb30;
   font-weight: 900;
 
-  @media only screen and (max-width: 950px) {
+  @media only screen and (max-width: 1210px) {
     display: none;
   }
 }
@@ -103,12 +101,19 @@ select {
   justify-content: center;
   margin-top: 30px;
 }
+
 .nav-score a {
   color: white;
+  text-decoration: none;
 }
 .nav-score ul li a:hover {
   color: #fdbb30;
+  cursor: pointer;
 }
+.nav-score ul li a:active {
+  color: white;
+}
+
 .players-card a {
   border: none;
   width: 100%;
@@ -116,14 +121,13 @@ select {
   color: #002d62;
   font-weight: 700;
 }
+.players-card a:hover {
+  background-color: #002d62;
+}
 .card {
   display: flex;
   justify-content: center;
   margin-bottom: 1rem;
-}
-
-.players-card a:hover {
-  background-color: #002d62;
 }
 
 .card h5 span {
@@ -153,6 +157,9 @@ select {
   gap: 1rem;
   font-size: 2rem;
   margin-right: 40px;
+  @media only screen and (max-width: 1370px) {
+    display: none;
+  }
 }
 
 .footer-right a {
