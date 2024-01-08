@@ -70,6 +70,7 @@ body {
   height: 25px;
   margin-bottom: 15px;
 }
+
 .voting-banner {
   position: relative;
 }
@@ -164,4 +165,8 @@ select {
 
 .footer-right a {
   color: white;
+}
+.footer-right a:hover {
+  transition: all 1s;
+  color: #fdbb30;
 }
